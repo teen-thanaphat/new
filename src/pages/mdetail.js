@@ -78,9 +78,9 @@ function Mdetail() {
                         {
                             (() => {
                                 try {
-                                    return <img src={require(`./img_material/${material_Id}.jpg`)} alt="image" width="200" height="200" />;
+                                    return <img src={require(`../../server/img_material/${material_Id}.jpg`)} alt="image" width="200" height="200" />;
                                 } catch (err) {
-                                    return <img src={require(`./img_material/no.jpg`)} alt="default image" width="200" height="200" />;
+                                    //return <img src={require(`./img_material/no.jpg`)} alt="default image" width="200" height="200" />;
                                 }
                             })()
                         }

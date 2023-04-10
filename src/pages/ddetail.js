@@ -116,9 +116,9 @@ function Ddetail() {
                         {
                             (() => {
                                 try {
-                                    return <img src={require(`./img_durablearticles/${durablearticles_Id}.jpg`)} alt="image" width="200" height="200" />;
+                                    return <img src={require(`../../server/img_durablearticles/${durablearticles_Id}.jpg`)} alt="image" width="200" height="200" />;
                                 } catch (err) {
-                                    return <img src={require(`./img_durablearticles/no.jpg`)} alt="default image" width="200" height="200" />;
+                                    //return <img src={require(`./img_durablearticles/no.jpg`)} alt="default image" width="200" height="200" />;
                                 }
                             })()
                         }
